@@ -1,16 +1,16 @@
 {
-  "short_name": "Mifos® X",
-  "name": "Mifos® X Web App",
+  "short_name": "CFMS",
+  "name": "Cooperative Financial Management System",
   "start_url": "/",
   "scope": "/",
-  "theme_color": "#fff",
-  "background_color": "#fff",
+  "theme_color": "#0f766e",
+  "background_color": "#f4f8f5",
   "display": "standalone",
-  "description": "Mifos® X Web App is the default web application built on top of the Apache Fineract® platform for the Mifos® user community leveraging the popular Angular framework.",
+  "description": "CFMS is a cooperative financial management system powered by Apache Fineract.",
   "icons": [
     {
-      "src": "assets/images/MifosX_logo.png",
-      "sizes": "182x184",
+      "src": "assets/images/cfms-logo.png",
+      "sizes": "512x512",
       "type": "image/png"
     }
   ]

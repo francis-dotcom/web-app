@@ -397,7 +397,8 @@
       "reason": "Iemesls"
     }
   },
-  "APP_NAME": "Mifos® X WebApp",
+  "APP_NAME": "CFMS",
+  "CFMS_SUBTITLE": "Cooperative Financial Management System",
   "Logged in as": "ielogojies Kā",
   "Remember me": "Atceries mani",
   "errors": {

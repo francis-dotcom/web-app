@@ -397,7 +397,8 @@
       "reason": "Důvod"
     }
   },
-  "APP_NAME": "Mifos® X WebApp",
+  "APP_NAME": "CFMS",
+  "CFMS_SUBTITLE": "Cooperative Financial Management System",
   "Logged in as": "Přihlášen jako",
   "Remember me": "Zapamatuj si mě",
   "error.resource.notImplemented.type": "Nenaimplementovaná chyba",

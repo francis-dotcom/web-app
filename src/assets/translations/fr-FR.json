@@ -400,7 +400,8 @@
       "reason": "Motif"
     }
   },
-  "APP_NAME": "Mifos® X WebApp",
+  "APP_NAME": "CFMS",
+  "CFMS_SUBTITLE": "Cooperative Financial Management System",
   "Logged in as": "connecté en tant que",
   "Remember me": "Souviens-toi de moi",
   "errors": {

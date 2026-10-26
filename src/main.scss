@@ -38,7 +38,33 @@
  * The value is unchanged by default, so existing appearance is preserved.
  */
 :root {
-  --md-sys-color-primary: var(--brand-primary-500, #1074b9);
+  --cfms-primary: #0f766e;
+  --cfms-primary-light: #5eead4;
+  --cfms-primary-dark: #0b5d56;
+  --cfms-secondary: #16324f;
+  --cfms-accent: #d4a017;
+  --md-sys-color-primary: var(--brand-primary-500, var(--cfms-primary));
+}
+
+html,
+body,
+button,
+input,
+select,
+textarea {
+  font-family:
+    'Montserrat Variable',
+    Montserrat,
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    sans-serif;
+}
+
+body {
+  background-color: #f4f8f5;
+  color: #1f2937;
 }
 
 /**
@@ -47,7 +73,7 @@
  */
 .mat-mdc-progress-bar,
 .dark-theme .mat-mdc-progress-bar {
-  --mat-progress-bar-track-color: color-mix(in srgb, var(--brand-primary-500, #1074b9) 25%, transparent);
+  --mat-progress-bar-track-color: color-mix(in srgb, var(--brand-primary-500, #0f766e) 25%, transparent);
 }
 
 .custom-snackbar-top-right {

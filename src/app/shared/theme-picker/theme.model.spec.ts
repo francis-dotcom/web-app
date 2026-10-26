@@ -35,6 +35,7 @@ function contrastWithWhite(hex: string): number {
 describe('primary colour themes', () => {
   it('offers exactly the tenant branding presets', () => {
     expect(PRIMARY_COLOR_THEMES.map((theme) => theme.id)).toEqual([
+      'cfms',
       'blue',
       'green',
       'light-green',
@@ -47,8 +48,8 @@ describe('primary colour themes', () => {
     ]);
   });
 
-  it('defaults to blue', () => {
-    expect(DEFAULT_PRIMARY_COLOR_THEME.id).toBe('blue');
+  it('defaults to the CFMS brand theme', () => {
+    expect(DEFAULT_PRIMARY_COLOR_THEME.id).toBe('cfms');
   });
 
   it('keeps white label text legible on every primary and dark hue', () => {
@@ -75,8 +76,8 @@ describe('primary colour themes', () => {
       'chartreuse',
       '#12345',
       '#gggggg'
-    ])('falls back to blue for %p', (value) => {
-      expect(resolvePrimaryColorTheme(value).id).toBe('blue');
+    ])('falls back to the CFMS brand theme for %p', (value) => {
+      expect(resolvePrimaryColorTheme(value).id).toBe('cfms');
     });
 
     it('rebuilds a stored hex as a custom theme', () => {

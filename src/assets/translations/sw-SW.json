@@ -397,7 +397,8 @@
       "reason": "Sababu"
     }
   },
-  "APP_NAME": "Mifos® X WebApp",
+  "APP_NAME": "CFMS",
+  "CFMS_SUBTITLE": "Cooperative Financial Management System",
   "Logged in as": "Imeingia kama",
   "Remember me": "Nikumbuke",
   "errors": {
